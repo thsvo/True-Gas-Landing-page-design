@@ -12,6 +12,7 @@ import Benifit from "./Benifit";
 import Testimonials from "./Testimonials";
 import Cont from "./Contact";
 import Why from "./Why";
+import Signup from "./SingupPage";
 
 const HomePage = () => {
   return (
@@ -25,8 +26,8 @@ const HomePage = () => {
       {/* <Offer /> */}
       <About></About>
 
-      <Component />
-      <Prices />
+      {/* <Component /> */}
+      {/* <Prices /> */}
       <Cont />
 
       <Testimonials></Testimonials>
@@ -35,6 +36,7 @@ const HomePage = () => {
 
       <Cta></Cta>
       <Footer></Footer>
+      <Signup></Signup>
     </div>
   );
 };

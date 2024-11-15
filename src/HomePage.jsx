@@ -36,7 +36,7 @@ const HomePage = () => {
 
       <Cta></Cta>
       <Footer></Footer>
-      <Signup></Signup>
+     
     </div>
   );
 };
